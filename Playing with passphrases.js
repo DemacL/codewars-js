@@ -1,3 +1,11 @@
+
+/**
+ *https://www.codewars.com/kata/559536379512a64472000053
+ *
+ * @param {*} s
+ * @param {*} n
+ * @returns
+ */
 function playPass(s, n) {
     return [...s].map((char, index) => {
         if (/[A-Z]/.test(char)) {
